@@ -8,3 +8,32 @@
     margin-right: 40px;
     margin-top: 15px;
 }
+
+.link-to-other-pages a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    font-weight: bold;
+}
+
+.navigation a.home:hover {
+    color: #3D9BE9;
+}
+
+.navigation a.enhancer:hover {
+    color: red;
+}
+
+.navigation a.emitter:hover {
+    color: orange;
+}
+
+.navigation a.manipulator:hover {
+    color: gold;
+}
+
+.navigation a.specialist:hover {
+    color: teal;
+}

@@ -1,0 +1,9 @@
+.navigation {
+    list-style-type: none; 
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block; 
+    margin-right: 30px;
+}

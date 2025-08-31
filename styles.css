@@ -1,10 +1,9 @@
-.navigation {
+.navigation, .link-to-other-pages {
     list-style-type: none; 
     text-align: center;
-    text-decoration: none;
 }
 
-.navigation li {
+.navigation a, .link-to-other-pages a {
     display: inline-block; 
     margin-right: 40px;
 }

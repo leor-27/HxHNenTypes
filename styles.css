@@ -6,4 +6,5 @@
 .navigation a, .link-to-other-pages a {
     display: inline-block; 
     margin-right: 40px;
+    margin-top: 15px;
 }

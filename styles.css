@@ -51,29 +51,3 @@ h1, h2 {
   margin-bottom: 20px;
   padding: 15px;
 }
-
-
-/*:root{
-  --bg: #0F1113;
-  --card: #17181A;
-  --text: #ECEFF1;
-  --muted: #AAB2B8;
-
-}
-
-/* active state: use a filled pill for current page */
-/* .navigation a.home {
-  background: rgba(255,255,255,0.04);
-  color: var(--text);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
-}
-
-/* active with type color underline (add class like .active.enhancer) */
-/* .navigation a.home::after{
-  content: "";
-  display:block;
-  height:3px;
-  margin-top:6px;
-  background: var(--enhancer);
-  border-radius:2px;
-} */

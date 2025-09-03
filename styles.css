@@ -1,3 +1,19 @@
+html, body {
+    background-color: #f5f5dc;
+    font-family: 'Roboto', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+    
+}
+
+.navigation {
+    padding:8px 18px;
+
+}
+
 .navigation, .link-to-other-pages {
     list-style-type: none; 
     text-align: center;
@@ -6,8 +22,11 @@
 .navigation a, .link-to-other-pages a {
     display: inline-block; 
     margin-right: 40px;
+    margin-left: 20px;
     margin-top: 15px;
     font-size: 17px;
+    text-decoration:none;
+    transition: color .22s ease, background-color .22s ease, transform .12s ease;
 }
 
 .link-to-other-pages a:hover {
@@ -19,22 +38,49 @@
     font-weight: bold;
 }
 
-.navigation a.home:hover {
-    color: #3D9BE9;
+.navigation a.home:hover { color: #3D9BE9; }
+
+.navigation a.enhancer:hover { color: red;}
+
+.navigation a.emitter:hover { color: #FF8A00; }
+
+.navigation a.manipulator:hover { color: #ffd900; }
+
+.navigation a.specialist:hover { color: teal; }
+
+
+
+
+/*:root{
+  --bg: #0F1113;
+  --card: #17181A;
+  --text: #ECEFF1;
+  --muted: #AAB2B8;
+
 }
 
-.navigation a.enhancer:hover {
-    color: red;
+/* Content cards */
+/* .section {
+  background: var(--card);
+  padding: 28px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+  color: var(--text);
 }
 
-.navigation a.emitter:hover {
-    color: orange;
+/* active state: use a filled pill for current page */
+/* .navigation a.active {
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
 }
 
-.navigation a.manipulator:hover {
-    color: gold;
-}
-
-.navigation a.specialist:hover {
-    color: teal;
-}
+/* active with type color underline (add class like .active.enhancer) */
+/* .navigation a.active.enhancer::after{
+  content: "";
+  display:block;
+  height:3px;
+  margin-top:6px;
+  background: var(--enhancer);
+  border-radius:2px;
+} */
